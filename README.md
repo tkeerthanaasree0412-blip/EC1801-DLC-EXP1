@@ -45,7 +45,7 @@ module tb;
         .B(B),
         .F(F)
     );
-
+    
     initial begin
         // ---- VCD dump setup ----
         $dumpfile("fun.vcd");   // name of the VCD file to be generated
